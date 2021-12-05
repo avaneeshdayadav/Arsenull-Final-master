@@ -1,0 +1,5 @@
+For becoming root : sudo su
+
+For xampp run : sudo ./manager-linux-x64.run
+
+For changing permissions : find /opt/lampp/htdocs -type d -exec chmod 755 {} \;

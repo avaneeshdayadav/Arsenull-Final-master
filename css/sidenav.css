@@ -1,0 +1,146 @@
+        .transparent{
+            background-color: rgba(0,0,0,0.5);
+            position: fixed;
+            right:0;
+            top:9%;
+            width:100%;
+            height:100%;
+            display: none;
+            z-index:1;
+        }
+
+
+        .hamb,.closeBtn{
+            display:none;
+        }
+        @media only screen and (max-width: 800px) {
+            .hamb,.closeBtn{
+                display:block;
+            }
+        }
+        .hambImg
+        {
+            display: none;
+        }
+        @media only screen and (max-width: 800px) {
+            .hambImg{
+                display:block;
+            }
+        }
+
+
+
+        .deskSidenav{
+            background-color:#487ae0;
+            color: white;
+            position:fixed;
+            height:100vh;
+            overflow-y:auto;
+            width:19vw;
+            z-index: 2;
+            overflow-x: hidden;
+        }
+
+        .DeskEachLink{
+            color:white;
+            padding:1.5vh;
+            text-align: left;
+            transition-duration:0.5s;
+            display: flex;
+            cursor:pointer;
+            white-space: nowrap;
+        }
+        .DeskEachLink h6{
+            margin-left:1.7vw;
+        }
+
+        .mainContent{
+            width:80%;
+            margin-left:19%;
+            margin-top:5%;
+            padding:1%;
+            z-index:0;
+        }
+        .takeAttSubMenuLinksDesk h6,.viewAttSubMenuLinksDesk h6{
+            margin-left:1vw;
+        }
+
+        .takeAttSubMenuLinksDesk,.viewAttSubMenuLinksDesk{
+            padding:1vh;
+            border:0px solid white;
+            border-left-width:1.5vw;
+            background-color:#5c91ff;
+            display:flex;
+            flex-direction:column;
+            transition-duration:0.6s;
+            white-space:wrap;
+            color: white;
+
+        } 
+        
+        .brand{
+            font-size:1.8vw;
+            padding:3%;
+            margin-top:5.5vh;
+        }
+        .brandSpanText{
+            margin-left:5vw;
+        }
+        @media only screen and (max-width: 800px) {
+            .mainContent{
+                margin-left:0%;
+                padding:4%;
+                width:100%;
+                margin-top:12%;
+            }
+            .deskSidenav{
+                width: 0vw;
+            }
+            .DeskEachLink h6{
+                margin-left:6vw;
+            }
+            .takeAttSubMenuLinksDesk h6,.viewAttSubMenuLinksDesk h6{
+                margin-left:5vw;
+            }
+            .takeAttSubMenuLinksDesk,.viewAttSubMenuLinksDesk{
+                border-left-width:4.5vw;
+            }
+            .brand{
+                font-size:5vw;
+            }
+            .brandSpanText{
+                margin-left:10vw;
+            }
+
+        }
+
+        .navDiv{
+            display: block;
+            z-index: 1;
+        }
+        
+        .close:fucus{
+            outline:0;
+        }
+
+        .takeAttSubMenuLinksDesk:hover{
+            background-color:#7ea6f7;
+        }
+        .viewAttSubMenuLinksDesk:hover{
+            background-color:#7ea6f7;
+        }
+
+        .takeAttSubMenuDesk,.viewAttSubMenuDesk{
+            display: none;
+        }
+
+        .notBadge{
+            font-weight:900;
+            margin-left:0.5vw;
+            padding: 3px 8px;
+            font-size:0.9rem;
+            background-color:#de1d1d;
+            border-radius:50%;
+            color:white;
+            display: none;
+        }
