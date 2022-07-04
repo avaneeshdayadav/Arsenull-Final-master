@@ -235,19 +235,19 @@ include_once('prof_sidebar.php');
       <div><h5  style="color:grey;font-weight:800;">Prepare and conduct test for your class.</h5></div><hr><br>
       <div class="card shadow">
         <div class="card-body" style="padding:4%;">
-	        <form method="post">
+	        <form method="post" autocomplete="off">
 	            <div class="row">
 	            	<div class="colm-6">
 	                	<div class="maindiv">
 	                  		<span class="place" onclick="makeInpFocus(this)">Test Name</span>
-	                  		<input type="text" class="testName" name="testName" value="<?php if(isset($_POST['go']))echo $_POST['testName']; ?>" required="" id="inpbox" onfocus="floatOnFocus(this)" onblur="floatOnBlur(this)" placeholder="">
+	                  		<input autocomplete="off" type="text" class="testName" name="testName" value="<?php if(isset($_POST['go']))echo $_POST['testName']; ?>" required="" id="inpbox" onfocus="floatOnFocus(this)" onblur="floatOnBlur(this)" placeholder="">
 	                	</div>
 	                	<div><small style="color:red;"><?php if(isset($_POST['go']))echo $testNameErr;?></small></div>
 	              	</div>
 	              	<div class="colm-6" style="position: relative;">
 	                	<div class="maindiv">
 	                  		<span class="place" onclick="makeInpFocus(this)" id="testTypePlace">Test Type</span>
-	                  		<input class="testType" type="text" name="testType" value="<?php if(isset($_POST['go']))echo $_POST['testType']; ?>" required="" id="inpbox" onfocus="floatOnFocus(this)" placeholder="" onkeydown="return false;">
+	                  		<input autocomplete="off" class="testType" type="text" name="testType" value="<?php if(isset($_POST['go']))echo $_POST['testType']; ?>" required="" id="inpbox" onfocus="floatOnFocus(this)" placeholder="" onkeydown="return false;">
 	                	</div>
 	                	<div class="card shadow" id="testTypeDiv" style="position:absolute;height:26vh;overflow-y:auto;display: none;color:grey;z-index:3;width:60%;">
 		                	<div id="sub"><span>On Any time Any date</span></div>
@@ -293,7 +293,7 @@ include_once('prof_sidebar.php');
 	              	<div class="colm-6" style="position: relative;">
 	                	<div class="maindiv">
 	                  		<span class="place" onclick="makeInpFocus(this)" id="subPlace">Subject</span>
-	                  		<input class="subInp" type="text" name="subInp" value="<?php if(isset($_POST['go']))echo $_POST['subInp']; ?>" required="" id="inpbox" onfocus="floatOnFocus(this)" placeholder="" onkeydown="return false;">
+	                  		<input autocomplete="off" class="subInp" type="text" name="subInp" value="<?php if(isset($_POST['go']))echo $_POST['subInp']; ?>" required="" id="inpbox" onfocus="floatOnFocus(this)" placeholder="" onkeydown="return false;">
 	                	</div>
 	                	<div class="card shadow" id="subDiv" style="position:absolute;display: none;color:grey;z-index:3;width:60%;">
 	                		<?php

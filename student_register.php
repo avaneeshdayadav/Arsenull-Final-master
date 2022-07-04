@@ -35,7 +35,7 @@ if(isset($_POST['signup']))
 	}
 	else
 	{
-	      if(strlen($_POST["stdPassUp"])<=5)
+	if(strlen($_POST["stdPassUp"])<=5)
         	$passErr="Password is less than six characters<br>";
         elseif(!preg_match("#[0-9]+#",$stdPassUp))
         	$passErr="Password must contain atleast one digit<br>";
@@ -74,7 +74,7 @@ if(isset($_POST['signup']))
 				$mail = new PHPMailer(true);
 
 				// "from" variable will be website official registered email address.
-				$from = "testforwebsite24@gmail.com";
+				$from = "avaneeshdyadav@gmail.com";
 				$confirmationLink = "http://localhost/Arsenull-Final-master/confirming_student_email.php/confirming_student_email.php?user=".$hashedInsId."&name=".$stdUserNameUp;
 
 				try {
@@ -84,7 +84,7 @@ if(isset($_POST['signup']))
 				    $mail->Host       = 'smtp.gmail.com';
 				    $mail->SMTPAuth   = true;
 				    $mail->Username   = $from;
-				    $mail->Password   = 'forgoten';
+				    $mail->Password   = '101293Dharmendra2024';
 				    $mail->SMTPSecure = 'tls';
 				    $mail->Port       = 587;                                    
 
@@ -117,6 +117,7 @@ if(isset($_POST['signup']))
 				catch (Exception $e)
 				{
 				    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+					echo $stdEmail;
 				}
 			// Send Email end.
         }

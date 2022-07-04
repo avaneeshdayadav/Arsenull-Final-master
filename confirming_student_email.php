@@ -3,7 +3,8 @@ $hashUsrId=(string)$_GET['user'];
 $stdUserNameUp=(string)$_GET['name'];
 include_once('DBConnect.php');
 
-
+echo $hashUsrId;
+echo $stdUserNameUp;
 
 $sql = "SELECT * FROM std_email_conf_pending WHERE username='$stdUserNameUp'";
 $result = mysqli_query($con, $sql);
@@ -13,6 +14,7 @@ if (mysqli_num_rows($result) > 0)
 	while($row = mysqli_fetch_assoc($result))
 	{
 		$checkId=$row['id'];
+		echo $checkId;
 		if (password_verify($checkId, $hashUsrId))
 		{
 			$stdName=$row['stdName'];
@@ -68,7 +70,8 @@ if (mysqli_num_rows($result) > 0)
 		}
 		else
 		{
-		    echo "<script>alert('May be your registeration link is expired. You can try registering again.');window.location='student_register.php';</script>";
+		    echo "<script>alert('May be your registeration link is expired. You can try registering again.')";
+			window.location('student_register.php');
 		}
 
   	}

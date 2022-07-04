@@ -11,7 +11,6 @@ if(isset($_POST['regBtn']))
   //Check if the username and email already exists end.
 
   include_once("DBConnect.php");
-
   if($_SERVER["REQUEST_METHOD"]=="POST")
   {
     if(!empty($_POST["firstname"]))
@@ -27,7 +26,6 @@ if(isset($_POST['regBtn']))
     {
       $email=test_input($_POST['profEmail']);
       //check if email is well formed.
-      
       if(!filter_var($email,FILTER_VALIDATE_EMAIL))
         $emailErr="Invalid email format";
       else {
@@ -67,7 +65,6 @@ if(isset($_POST['regBtn']))
       else
       echo "Registeration not Successfull". mysqli_error($con)."<br>";
       //Filling Database end.
-
       echo "$last_id<br>";
 
 
@@ -168,8 +165,8 @@ if(isset($_POST['regBtn']))
 }
 
 function test_input($data) {
-     $data = trim($data);                 // removes whitespace and other predefined characters from both sides of a string.
-     $data = stripslashes($data);         // removes backslashes in a string
+     $data = trim($data);
+     $data = stripslashes($data);
      $data = htmlspecialchars($data);
      return $data;
   }
@@ -255,7 +252,7 @@ function test_input($data) {
 </style>
 
 
-<body style="/*background-image: linear-gradient(to bottom right,#5c9aff, #9ce5f7)*/background-image:url('img/nature.jpg');background-repeat:no-repeat;height: 100vh;">
+<body style="/*background-image: linear-gradient(to bottom right,#5c9aff, #9ce5f7)*/background-image:url('user_imgs/Avi/expe.png');background-repeat:no-repeat;height: 100vh;">
 <script type="text/javascript" src="DataTables/jQuery-3.3.1/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="DataTables/Bootstrap-4-4.1.1/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="DataTables/DataTables-1.10.20/js/jquery.dataTables.min.js"></script>
