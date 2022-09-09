@@ -124,7 +124,7 @@ $classCheckSql = "SELECT * FROM $tableNameCal WHERE stdClassId='$classId' ORDER 
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
       <li class="nav-item active">
-        <a class="nav-link" href="teachers_tool.php">Home<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="go_to_class2.php?className=<?php echo $className ?>&division=<?php echo $classDiv ?>">Home<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -366,7 +366,8 @@ $classCheckSql = "SELECT * FROM $tableNameCal WHERE stdClassId='$classId' ORDER 
           async: true,
           success: function(data)
           {
-            alert(data);
+            // alert(data);
+            location.reload();
           }
       });
       }
