@@ -127,10 +127,11 @@ if (isset($_POST['presenteeSaveBtn']))
 		                    sort($str_arr);
 		                    $commaText = implode(',', $str_arr);
 		                    $upd2 = "UPDATE $tableNameStd SET present_date_ids='$commaText' WHERE id=$selectedId";
-		                    if (mysqli_query($con, $upd2))
-		                        echo "<script>alert('updated succesfully inside username_students table');</script>";
-		                    else
-		                        echo "Error updating record: " . mysqli_error($con);          
+		                    if (!mysqli_query($con, $upd2))
+		                        //echo "<script>alert('updated succesfully inside username_students table');</script>";
+								echo "Error updating record: " . mysqli_error($con);  
+		                    // else
+		                    //     echo "Error updating record: " . mysqli_error($con);          
 		                }
 		            }
 		            else
