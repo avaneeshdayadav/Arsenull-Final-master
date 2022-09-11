@@ -1,4 +1,4 @@
-# Attendance Monitoring Web Application.
+# Attendance Monitoring Web Application. (In Progress)
 
 **Description :**
 This is a mobile responsive web application project made to help teachers to monitor attendance of the classs and keep record of all student details in the class.
@@ -45,3 +45,6 @@ Some of the functionalities that application provides are :
 ![View attendance sheet Page](https://github.com/avaneeshdayadav/Arsenull-Final-master/blob/master/img/View_attendance_sheet.png?raw=true)
 **8.* You can update attendance sheet also by clicking on update button.
 ![take attendance Page](https://github.com/avaneeshdayadav/Arsenull-Final-master/blob/master/img/Update_attendence_sheet.png?raw=true)
+
+
+** This application still has many functionalities that has not been implemented yet like creation of test for a class, email sending, teacher invitation through email, student login section.
