@@ -30,24 +30,49 @@ Some of the functionalities that application provides are :
 **Navigating in the application**
 
 **1.** When you run the application in your localhost you will see a page with Faculty login, regestration and student login, regestration buttons.
+
+
 ![Index Page](https://github.com/avaneeshdayadav/Arsenull-Final-master/blob/master/img/index_page.png?raw=true)
 
-
 **2.** After successfully signing up in the application you will be redirected to login page.
+
+
 ![Login](https://raw.githubusercontent.com/avaneeshdayadav/Arsenull-Final-master/master/img/teacher_login.png)
 
 
 **3.** After login you will be directed to a page where you can see all your previously created classes and also have an option to create new class and to view your class.
+
+
 ![Home Page](https://raw.githubusercontent.com/avaneeshdayadav/Arsenull-Final-master/master/img/homepage.png)
+
+
 **4.** You can create new classes by clicking on create class.
+
+
 ![Create class Page](https://raw.githubusercontent.com/avaneeshdayadav/Arsenull-Final-master/master/img/createclass.png)
+
+
 **5.** View your class by clicking on view button.
+
+
 ![View class Page](https://github.com/avaneeshdayadav/Arsenull-Final-master/blob/master/img/Go_to_class2.png?raw=true)
+
+
 **6.** Take attendance for any subject from navigation menu on left.
+
+
 ![take attendance Page](https://github.com/avaneeshdayadav/Arsenull-Final-master/blob/master/img/Take_attendance.png?raw=true)
+
+
 **7.** You can view attendance sheet for any class from navigation menu on the left.
+
+
 ![View attendance sheet Page](https://github.com/avaneeshdayadav/Arsenull-Final-master/blob/master/img/View_attendance_sheet.png?raw=true)
+
+
 **8.* You can update attendance sheet also by clicking on update button.
+
+
 ![take attendance Page](https://github.com/avaneeshdayadav/Arsenull-Final-master/blob/master/img/Update_attendence_sheet.png?raw=true)
 
 
