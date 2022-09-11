@@ -31,8 +31,12 @@ Some of the functionalities that application provides are :
 
 **1.** When you run the application in your localhost you will see a page with Faculty login, regestration and student login, regestration buttons.
 ![Index Page](https://github.com/avaneeshdayadav/Arsenull-Final-master/blob/master/img/index_page.png?raw=true)
+
+
 **2.** After successfully signing up in the application you will be redirected to login page.
 ![Login](https://raw.githubusercontent.com/avaneeshdayadav/Arsenull-Final-master/master/img/teacher_login.png)
+
+
 **3.** After login you will be directed to a page where you can see all your previously created classes and also have an option to create new class and to view your class.
 ![Home Page](https://raw.githubusercontent.com/avaneeshdayadav/Arsenull-Final-master/master/img/homepage.png)
 **4.** You can create new classes by clicking on create class.
