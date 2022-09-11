@@ -70,7 +70,7 @@ Some of the functionalities that application provides are :
 ![View attendance sheet Page](https://github.com/avaneeshdayadav/Arsenull-Final-master/blob/master/img/View_attendance_sheet.png?raw=true)
 
 
-**8.* You can update attendance sheet also by clicking on update button.
+**8.** You can update attendance sheet also by clicking on update button.
 
 
 ![take attendance Page](https://github.com/avaneeshdayadav/Arsenull-Final-master/blob/master/img/Update_attendence_sheet.png?raw=true)
