@@ -47,4 +47,4 @@ Some of the functionalities that application provides are :
 ![take attendance Page](https://github.com/avaneeshdayadav/Arsenull-Final-master/blob/master/img/Update_attendence_sheet.png?raw=true)
 
 
-** This application still has many functionalities that has not been implemented yet like creation of test for a class, email sending, teacher invitation through email, student login section.
+**This application still has many functionalities that has not been implemented yet like creation of test for a class, email sending, teacher invitation through email, student login section.**
